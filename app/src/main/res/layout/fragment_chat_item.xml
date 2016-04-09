@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="72dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:paddingBottom="8dp"
+    android:paddingTop="8dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageUser"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:src="@drawable/brazil" />
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        >
+
+        <TextView
+            android:id="@+id/txtUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tran Thanh Ngoan"
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:textStyle="normal"
+            android:paddingTop="7dp"/>
+
+        <TextView
+            android:id="@+id/txtStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dear my friend!!!!"
+            android:textColor="@color/timestamp"
+            android:textSize="11sp"
+            android:paddingBottom="5dp"/>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imgoption"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center_vertical"
+        android:padding="7dp"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/ic_more_vert" />
+
+</LinearLayout>

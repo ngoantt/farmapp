@@ -1,4 +1,4 @@
-package ngoantran.com.farmapp;
+package ngoantran.com.farmapp.activity;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -31,6 +31,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import ngoantran.com.farmapp.R;
 
 import static android.Manifest.permission.READ_CONTACTS;
 
